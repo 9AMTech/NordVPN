@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: helvetica;
+}
+
+h1 {
+    font-size: 14px;
+}
+
+h2 {
+    font-size: 12px;
+}
+
+/* Nav Styles*/
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    height: 60px;
+    width: 115px;
+}
+
+/* Style the navigation menu */
+
+.nav-bar {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+
+#hidden-links {
+    display: none;
+}
+
+#hidden-links a {
+    color: white;
+    padding: 17px 30px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+/* Style navigation menu links */
+
+.nav-bar a {
+    color: white;
+    padding: 34px 20px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+/* Style the hamburger menu */
+
+.nav-bar a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    padding: 24px 27px;
+    right: 0;
+    top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+
+.nav-bar a:hover {
+    background-color: #ababab;
+    color: black;
+}
+
+/* Style the active link (or home/logo) */
+
+.active {
+    background-color: #4781fd;
+    color: white;
+}
+
+#active-nav, footer section {
+    background-color: #4781fd;
+    padding: 4px 0;
+}
+
+/* Fixing the main banner, mountain.jpg*/
+
+.banner-container {
+    height: 180px;
+    width: 100%;
+}
+
+.banner-container img {
+    height: 100%;
+    width: 100%;
+}
+
+/* Styles for the Home grid */
+
+.home-grid {
+    margin: 1rem 1rem;
+    text-align: center;
+}
+
+.home-grid img {
+    max-width: 100%;
+    max-height: 20rem;
+}
+
+.home-grid h2 {
+    padding: 2% 2% 10%;
+}
+
+.hook {
+    font-style: italic;
+    padding: 19% 4%;
+}
+
+.conclusion {
+    padding: 19% 4%;
+}
+
+@media only screen and (min-width: 768px) {
+    /* styling the nav */
+    h1 {
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 17px;
+    }
+    .logo {
+        height: 75px;
+        width: 135px;
+    }
+    #active-nav, footer section {
+        padding: 12px 0;
+    }
+    #hidden-links a {
+        padding: 28px 20px;
+    }
+    .nav-bar a {
+        padding: 50px 20px;
+    }
+    .nav-bar a.icon {
+        padding: 40px 43px;
+    }
+    /* styling the banner */
+    .banner-container {
+        height: 250px;
+    }
+    .conclusion {
+        padding: 11% 4%;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    h1 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 28px;
+    }
+    header {
+        width: 100%;
+    }
+    #active-nav {
+        padding: 0;
+    }
+    .nav-bar {
+        background-color: #4781fd;
+    }
+    .nav-bar a {
+        padding: 50px 20px;
+    }
+    .nav-bar a.icon {
+        display: none;
+    }
+    .nav-bar ul {
+        display: flex;
+    }
+    .nav-bar ul li:first-child {
+        margin-right: auto;
+    }
+    #hidden-links {
+        list-style-type: none;
+        display: initial;
+    }
+    #hidden-links a {
+        font-size: 21px;
+    }
+    #hidden-links li {
+        display: inline-block;
+        font-size: 14px;
+    }
+    .banner-container {
+        height: 375px;
+    }
+}
