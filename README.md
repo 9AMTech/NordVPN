@@ -1,5 +1,5 @@
 # NordVPN
-This was my first ever attempt at making a responsive website for a business! 
+This was my first ever attempt at making a responsive mockup website for a business! 
 **Link to project:** https://9amtech.github.io/NordVPN/
 
 ![Thumbnail for NordVPN.](https://github.com/9AMTech/NordVPN/blob/main/thumbnail.png?raw=true)
